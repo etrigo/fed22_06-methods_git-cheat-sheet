@@ -12,3 +12,20 @@ git init
 
 _This will create a new empty repository._
 [Read more](https://git-scm.com/docs/git-init)
+
+### git-log
+
+**See what happened:**
+
+```
+git log
+```
+
+_This will show commit logs. You can type "q" to exit git log and return to command prompt_
+
+```
+git log --online
+```
+
+_This will show commit logs in one line per log._
+[Read more](https://git-scm.com/docs/git-log)
