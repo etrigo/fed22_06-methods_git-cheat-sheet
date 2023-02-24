@@ -95,3 +95,45 @@ $ git branch -d <branch>
 _This will will delete a branch from the repositiory._
 
 [Read more](https://git-scm.com/docs/git-branch)
+
+### git-add
+
+**Add file contents to the index:**
+
+```
+$ git add *
+```
+
+_This will add all visible files._
+
+```
+$ git add .
+```
+
+_This will add visible files._
+
+```
+$ git add <file>
+```
+
+or
+
+```
+$ git add index.html
+```
+
+_This will add specific file._
+
+```
+$ git add <folder>
+```
+
+or
+
+```
+$ git add src/
+```
+
+_This will add specific folder._
+
+[Read more](https://git-scm.com/docs/git-add)
