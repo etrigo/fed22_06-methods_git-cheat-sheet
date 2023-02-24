@@ -24,8 +24,20 @@ git log
 _This will show commit logs. You can type "q" to exit git log and return to command prompt_
 
 ```
-git log --online
+git log --oneline
 ```
 
 _This will show commit logs in one line per log._
 [Read more](https://git-scm.com/docs/git-log)
+
+### git-switch
+
+**Switch branches:**
+
+```
+git switch <branch>
+```
+
+_This will switch branch._
+
+[Read more](https://git-scm.com/docs/git-switch)
