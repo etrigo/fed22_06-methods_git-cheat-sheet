@@ -59,10 +59,22 @@ $ git branch -v
 _This will list all branches in the repository with additional information._
 
 ```
+$ git branch -r
+```
+
+_This will list all branches in the remote repository._
+
+```
 $ git branch -a
 ```
 
 _This will list all branches in the repository including remotes._
+
+```
+$ git branch -r -v
+```
+
+_This will list all branches in the remote repository with additional information._
 
 ```
 $ git branch -a -v
@@ -77,7 +89,7 @@ $ git branch <new-branch>
 _This will will create a new branch from the current branch._
 
 ```
-$ git branch -d
+$ git branch -d <branch>
 ```
 
 _This will will delete a branch from the repositiory._
