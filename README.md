@@ -7,7 +7,7 @@ _I´l bet you have a laugh at this project. But you said we could select technol
 **Create a new repository:**
 
 ```
-git init
+$ git init
 ```
 
 _This will create a new empty repository._
@@ -18,13 +18,13 @@ _This will create a new empty repository._
 **See what happened:**
 
 ```
-git log
+$ git log
 ```
 
 _This will show commit logs. You can type "q" to exit git log and return to command prompt_
 
 ```
-git log --oneline
+$ git log --oneline
 ```
 
 _This will show commit logs in one line per log._
@@ -35,9 +35,51 @@ _This will show commit logs in one line per log._
 **Switch branches:**
 
 ```
-git switch <branch>
+$ git switch <branch>
 ```
 
 _This will switch branch._
 
 [Read more](https://git-scm.com/docs/git-switch)
+
+### git-branch
+
+**List, create or delete branches:**
+
+```
+$ git branch
+```
+
+_This will list all branches in the repository._
+
+```
+$ git branch -v
+```
+
+_This will list all branches in the repository with additional information._
+
+```
+$ git branch -a
+```
+
+_This will list all branches in the repository including remotes._
+
+```
+$ git branch -a -v
+```
+
+_This will list all branches in the repository including remotes with additional information._
+
+```
+$ git branch <new-branch>
+```
+
+_This will will create a new branch from the current branch._
+
+```
+$ git branch -d
+```
+
+_This will will delete a branch from the repositiory._
+
+[Read more](https://git-scm.com/docs/git-branch)
