@@ -136,4 +136,6 @@ $ git add src/
 
 _This will add specific folder._
 
+this will not be added
+
 [Read more](https://git-scm.com/docs/git-add)
