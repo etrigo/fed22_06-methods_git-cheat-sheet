@@ -205,3 +205,16 @@ $ git commit <branch>
 _This will merge the selected branch in to the currently checked out branch._
 
 [Read more](https://git-scm.com/docs/git-merge)
+
+### git-rebase
+
+**Reapply commits on top of another base tip:**
+
+```
+$ git rebase <branch>
+```
+
+_This will automatcilly perform a "git switch <branch>" before anything else. Then it will merge the changes on the before checked out branch ontop of the now checked out branch._
+
+[Read more about rebase vs merge](./rebase-vs-merge.md)
+[Read more](https://git-scm.com/docs/git-rebase)
