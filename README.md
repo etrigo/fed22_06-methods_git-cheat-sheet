@@ -218,3 +218,15 @@ _This will automatcilly perform a "git switch <branch>" before anything else. Th
 
 [Read more about rebase vs merge](./rebase-vs-merge.md)
 [Read more](https://git-scm.com/docs/git-rebase)
+
+### git-cherry-pick
+
+**Apply the changes introduced by some existing commits:**
+
+```
+$ git cherry-pick <commit>
+```
+
+_This will apply selected commit into the checked out branch._
+
+[Read more](https://git-scm.com/docs/git-cherry-pick)
