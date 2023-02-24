@@ -139,3 +139,27 @@ _This will add specific folder._
 this will not be added
 
 [Read more](https://git-scm.com/docs/git-add)
+
+### git-status
+
+**Show the working tree status:**
+
+```
+$ git status
+```
+
+_This will show current status._
+
+```
+$ git status -b
+```
+
+_This will show the branch and current status._
+
+```
+$ git status -b -s
+```
+
+_This will show the branch and current status in short format._
+
+[Read more](https://git-scm.com/docs/git-status)
