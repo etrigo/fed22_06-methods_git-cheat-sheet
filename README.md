@@ -163,3 +163,15 @@ $ git status -b -s
 _This will show the branch and current status in short format._
 
 [Read more](https://git-scm.com/docs/git-status)
+
+### git-commit
+
+**Record changes to the repository:**
+
+```
+$ git commit -m "A commit message"
+```
+
+_This will record modifications with a commit message._
+
+[Read more](https://git-scm.com/docs/git-commit)
