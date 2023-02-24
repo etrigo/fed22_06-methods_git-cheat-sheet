@@ -193,3 +193,15 @@ $ git commit -m "A commit message"
 _This will record modifications with a commit message._
 
 [Read more](https://git-scm.com/docs/git-commit)
+
+### git-merge
+
+**Join two or more development histories together:**
+
+```
+$ git commit <branch>
+```
+
+_This will merge the selected branch in to the currently checked out branch._
+
+[Read more](https://git-scm.com/docs/git-merge)
