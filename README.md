@@ -42,6 +42,24 @@ _This will switch branch._
 
 [Read more](https://git-scm.com/docs/git-switch)
 
+### git-checkout
+
+**Switches branches:**
+
+```
+$ git checkout <branch>
+```
+
+_This will switch (checkout) branch._
+
+```
+$ git checkout -b <new-branch>
+```
+
+_This will create a new branch and switch (checkout) to it._
+
+[Read more](https://git-scm.com/docs/git-checkout)
+
 ### git-branch
 
 **List, create or delete branches:**
